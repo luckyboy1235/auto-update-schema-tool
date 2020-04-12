@@ -1,0 +1,32 @@
+{
+  "name": "auto-update-schema-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "googleapis": "^39.2.0",
+    "pg": "^8.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckyboy1235/auto-update-schema-tool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luckyboy1235/auto-update-schema-tool/issues"
+  },
+  "homepage": "https://github.com/luckyboy1235/auto-update-schema-tool#readme"
+}
